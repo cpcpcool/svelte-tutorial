@@ -250,6 +250,3 @@ export const counterStore = writable(0);
 * focus / ref 관리 패턴
 * Store와 SvelteKit SSR 연계 시 주의점
 * Headless UI 컴포넌트 설계 패턴
-
-```
-```
