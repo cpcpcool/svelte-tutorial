@@ -7,7 +7,7 @@
 <ul class="list-disc list-inside mb-4">
   <li>store는 컴포넌트 외부 공유 상태</li>
   <li>$state를 대체하는 개념 ❌</li>
-  <li>역할이 다름</li>
+  <li>zustand의 store와 개념적으로는 유사</li>
 </ul>
 
 <p>store value: {$counterStore}</p>
