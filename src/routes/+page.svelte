@@ -9,6 +9,7 @@
   <div class="flex gap-2">
     <a href="/state" class="w-24"><Button class="w-full">/state</Button></a>
     <a href="/derived" class="w-24"><Button class="w-full">/derived</Button></a>
+    <a href="/effect" class="w-24"><Button class="w-full">/effect</Button></a>
     <a href="/event" class="w-24"><Button class="w-full">/event</Button></a>
     <a href="/props" class="w-24"><Button class="w-full">/props</Button></a>
     <a href="/store" class="w-24"><Button class="w-full">/store</Button></a>
