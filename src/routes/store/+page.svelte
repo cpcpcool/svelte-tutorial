@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from '$lib/components/Button.svelte';
-  import { counterStore } from './store';
+  import { counterStore } from '$lib/store/store';
 </script>
 
 <h1 class="text-xl font-semibold mb-4">Store 예제 (공유 상태)</h1>
@@ -14,7 +14,7 @@
 
 <button
   class="px-4 py-2 bg-purple-600 text-white rounded"
-  on:click={() => counterStore.update(v => v + 1)}
+  onclick={() => counterStore.update(v => v + 1)}
 >
   증가
 </button>
