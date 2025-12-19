@@ -20,11 +20,11 @@
 <!-- 
   Using `on:click` to listen to the click event is deprecated. Use the event attribute `onclick` instead.
   https://svelte.dev/e/event_directive_deprecated  
-  어차피 deprecated 되므로 svelte 5 runes mode props 형태로 사용하는게 권장됨.
+  어차피 deprecated 되므로 svelte 5 runes mode 에서는 혼용 금지되고 onclick사용이 권장됨.
 -->
 <button
   class="px-4 py-2 bg-green-600 text-white rounded mr-2 hover:bg-green-600/80"
-  on:click={handleClick}
+  onclick={handleClick}
 >
   {`DOM (<button>) on:click`}
 </button>
