@@ -1,4 +1,4 @@
-````md
+
 # Svelte 5 (Runes Mode) + TypeScript + Tailwind CSS  
 ## 구조 · 반응성 · 이벤트 · Store 학습 튜토리얼
 
@@ -251,4 +251,5 @@ export const counterStore = writable(0);
 * Store와 SvelteKit SSR 연계 시 주의점
 * Headless UI 컴포넌트 설계 패턴
 
+```
 ```
