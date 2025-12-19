@@ -7,10 +7,10 @@
   <h2 class="text-xl font-semibold">반응성 수단별 예제</h2>  
   
   <div class="flex gap-2">
-    <a href="/state"><Button>/state</Button></a>
-    <a href="/derived"><Button>/derived</Button></a>
-    <a href="/event"><Button>/event</Button></a>
-    <a href="/props"><Button>/props</Button></a>
-    <a href="/store"><Button>/store</Button></a>
+    <a href="/state" class="w-24"><Button class="w-full">/state</Button></a>
+    <a href="/derived" class="w-24"><Button class="w-full">/derived</Button></a>
+    <a href="/event" class="w-24"><Button class="w-full">/event</Button></a>
+    <a href="/props" class="w-24"><Button class="w-full">/props</Button></a>
+    <a href="/store" class="w-24"><Button class="w-full">/store</Button></a>
   </div>
 </div>
