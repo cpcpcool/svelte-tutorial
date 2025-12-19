@@ -1,10 +1,10 @@
 <script lang="ts">
   import Button from '$lib/components/Button.svelte';
 </script>
-<h1>Welcome to SvelteKit</h1>
-
+<h1>svelte 5 (runes mode) + TypeScript + Tailwindcss</h1>
 <div class="space-y-4">
   <h1 class="text-2xl font-bold">Get Started</h1>
+  <h2 class="text-xl font-semibold">반응성 수단별 예제</h2>  
   
   <div class="flex gap-2">
     <a href="/state"><Button>/state</Button></a>
